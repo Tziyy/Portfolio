@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Chinese font support -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Yap Tzer Yi | Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Add Noto Sans SC for Chinese characters -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Background animation styles */
+        #networkCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Network Animation Canvas -->
+    <canvas id="networkCanvas"></canvas>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="main-title">Creative Portfolio</h1>
+                <div class="header-subtitle">
+                    <div class="subtitle-content">
+                        <div class="name-title">
+                            <h2>Yap Tzer Yi</h2>
+                            <p>Multimedia Designer</p>
+                        </div>
+                        <a href="about.html" class="about-header-link" title="About Me">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <!-- WhatsApp Icon -->
+                    <a href="https://wa.me/60184624925" class="contact-icon" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <!-- Email Icon -->
+                    <a href="mailto:tzeryi.yap@gmail.com" class="contact-icon" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                    <!-- Instagram Icon -->
+                    <a href="https://www.instagram.com/_tziyy_/" class="contact-icon" target="_blank" rel="noopener noreferrer" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <!-- LinkedIn Icon -->
+                    <a href="https://www.linkedin.com/in/tzer-yi-yap-178447257/?trk=opento_sprofile_details" class="contact-icon" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Category Filters -->
+        <nav class="filter-nav">
+            <ul class="filter-list">
+                <li><button class="filter-btn active" data-filter="all">All Projects</button></li>
+                <li><button class="filter-btn" data-filter="graphic">Graphic Design</button></li>
+                <li><button class="filter-btn" data-filter="video">Video</button></li>
+                <li><button class="filter-btn" data-filter="animation">Animation</button></li>
+                <li><button class="filter-btn" data-filter="3d">3D Model</button></li>
+                <li><button class="filter-btn" data-filter="audio">Audio</button></li>
+                <li><button class="filter-btn" data-filter="diary">Visual Diary <i class="fab fa-instagram"></i></button></li>
+            </ul>
+        </nav>
+
+        <!-- Type Filters -->
+        <nav class="type-filter-nav" id="typeFilterNav">
+            <ul class="type-filter-list">
+                <li><button class="type-filter-btn active" data-type="all">All Types</button></li>
+                <li><button class="type-filter-btn" data-type="University Assignment">University</button></li>
+                <li><button class="type-filter-btn" data-type="Work Project">Work</button></li>
+                <li><button class="type-filter-btn" data-type="Personal Project">Personal</button></li>
+            </ul>
+        </nav>
+
+        <!-- Projects Grid -->
+        <main class="projects-grid" id="projectsContainer">
+            <div class="loading">
+                <i class="fas fa-spinner fa-spin"></i> Loading projects...
+            </div>
+        </main>
+
+        <footer class="portfolio-footer">
+            <p class="copyright">© 2025 Yap Tzer Yi. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <!-- Media Section -->
+                <div class="modal-media">
+                    <div class="media-container" id="mediaContainer">
+                        <div class="no-media">
+                            <i class="fas fa-photo-video"></i>
+                            <p>Select a project to view media</p>
+                        </div>
+                    </div>
+                    <div class="media-nav">
+                        <button class="media-prev" disabled>
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="media-counter">
+                            <span id="currentMedia">0</span> / <span id="totalMedia">0</span>
+                        </div>
+                        <button class="media-next" disabled>
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Info Section -->
+                <div class="modal-info">
+                    <div class="project-details" id="projectDetails">
+                        <div class="project-header">
+                            <h2 id="modalTitle">Select a Project</h2>
+                            <div class="project-badges">
+                                <span class="category-badge" id="modalCategory">Category</span>
+                                <span class="type-badge" id="modalType">Type</span>
+                            </div>
+                        </div>
+
+                        <div class="project-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">Date</span>
+                                <span class="meta-value" id="modalDate">-</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Media</span>
+                                <span class="meta-value" id="modalMediaCount">0 items</span>
+                            </div>
+                        </div>
+
+                        <div class="project-description">
+                            <h3><i class="fas fa-info-circle"></i> Project Overview</h3>
+                            <p id="modalDescription">Click on any project card to view details here.</p>
+                        </div>
+
+                        <!-- Add this after the skills-section div -->
+                        <div id="modalLinks"></div>
+                        <br />
+                        <div class="tools-section">
+                            <h3><i class="fas fa-tools"></i> Tools Used</h3>
+                            <div class="tools-list" id="modalTools">
+                                <span class="tool-tag">Select a project</span>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="skills-section">
+                            <h3><i class="fas fa-star"></i> Skills Demonstrated</h3>
+                            <div class="skills-list" id="modalSkills">
+                                <span class="skill-tag">Select a project</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Lightbox Modal for Visual Diary -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-overlay"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="lightbox-media" id="lightboxMedia">
+                <div class="no-media">
+                    <i class="fas fa-photo-video"></i>
+                    <p>No media available</p>
+                </div>
+            </div>
+            <div class="lightbox-nav">
+                <button class="lightbox-prev" disabled>
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="lightbox-counter">
+                    <span id="lightboxCurrent">0</span> / <span id="lightboxTotal">0</span>
+                </div>
+                <button class="lightbox-next" disabled>
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Network Animation JavaScript
+        document.addEventListener('DOMContentLoaded', function () {
+            const canvas = document.getElementById('networkCanvas');
+            const ctx = canvas.getContext('2d');
+
+            // Set canvas size to window size
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+
+            // Initial resize
+            resizeCanvas();
+            window.addEventListener('resize', resizeCanvas);
+
+            // Node class for network points
+            class Node {
+                constructor(x, y) {
+                    this.x = x;
+                    this.y = y;
+                    this.vx = (Math.random() - 0.5) * 0.5;
+                    this.vy = (Math.random() - 0.5) * 0.5;
+                    this.radius = Math.random() * 1.5 + 0.5;
+                    // Blue colors with varying opacity
+                    const blueShades = [
+                        'rgba(59, 130, 246, 0.8)',  // blue-500
+                        'rgba(37, 99, 235, 0.8)',   // blue-600
+                        'rgba(96, 165, 250, 0.8)',  // blue-400
+                        'rgba(29, 78, 216, 0.8)'    // blue-700
+                    ];
+                    this.color = blueShades[Math.floor(Math.random() * blueShades.length)];
+                }
+
+                update() {
+                    this.x += this.vx;
+                    this.y += this.vy;
+
+                    // Bounce off edges
+                    if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+                    if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+
+                    // Keep within bounds
+                    this.x = Math.max(0, Math.min(canvas.width, this.x));
+                    this.y = Math.max(0, Math.min(canvas.height, this.y));
+                }
+
+                draw() {
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                    ctx.fillStyle = this.color;
+                    ctx.fill();
+
+                    // Add subtle glow effect
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.radius * 3, 0, Math.PI * 2);
+                    const gradient = ctx.createRadialGradient(
+                        this.x, this.y, this.radius,
+                        this.x, this.y, this.radius * 3
+                    );
+                    gradient.addColorStop(0, this.color.replace('0.8', '0.4'));
+                    gradient.addColorStop(1, this.color.replace('0.8', '0'));
+                    ctx.fillStyle = gradient;
+                    ctx.fill();
+                }
+            }
+
+            // Create nodes
+            const nodes = [];
+            const nodeCount = Math.min(60, Math.floor((canvas.width * canvas.height) / 15000));
+
+            for (let i = 0; i < nodeCount; i++) {
+                nodes.push(new Node(
+                    Math.random() * canvas.width,
+                    Math.random() * canvas.height
+                ));
+            }
+
+            // Draw connecting lines
+            function drawConnections() {
+                for (let i = 0; i < nodes.length; i++) {
+                    for (let j = i + 1; j < nodes.length; j++) {
+                        const dx = nodes[i].x - nodes[j].x;
+                        const dy = nodes[i].y - nodes[j].y;
+                        const distance = Math.sqrt(dx * dx + dy * dy);
+
+                        // Draw line if nodes are close enough
+                        if (distance < 120) {
+                            const opacity = 1 - (distance / 120);
+                            ctx.beginPath();
+                            ctx.moveTo(nodes[i].x, nodes[i].y);
+                            ctx.lineTo(nodes[j].x, nodes[j].y);
+                            ctx.strokeStyle = `rgba(59, 130, 246, ${opacity * 0.5})`;
+                            ctx.lineWidth = 0.8;
+                            ctx.stroke();
+                        }
+                    }
+                }
+            }
+
+            // Animation loop
+            function animate() {
+                // Clear with very subtle fade for light trails
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                // Update and draw nodes
+                nodes.forEach(node => {
+                    node.update();
+                    node.draw();
+                });
+
+                // Draw connections
+                drawConnections();
+
+                requestAnimationFrame(animate);
+            }
+
+            // Start animation
+            animate();
+
+            // Add some interactivity - nodes move away from mouse
+            let mouseX = -1000;
+            let mouseY = -1000;
+
+            document.addEventListener('mousemove', (e) => {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+            });
+
+            document.addEventListener('mouseleave', () => {
+                mouseX = -1000;
+                mouseY = -1000;
+            });
+
+            // Modify node update to include mouse repulsion
+            const originalUpdate = Node.prototype.update;
+            Node.prototype.update = function () {
+                originalUpdate.call(this);
+
+                // Mouse repulsion
+                const dx = this.x - mouseX;
+                const dy = this.y - mouseY;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+
+                if (distance < 80) {
+                    const force = (80 - distance) / 80;
+                    this.vx += (dx / distance) * force * 0.3;
+                    this.vy += (dy / distance) * force * 0.3;
+
+                    // Limit speed
+                    const speed = Math.sqrt(this.vx * this.vx + this.vy * this.vy);
+                    if (speed > 2) {
+                        this.vx = (this.vx / speed) * 2;
+                        this.vy = (this.vy / speed) * 2;
+                    }
+                }
+            };
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

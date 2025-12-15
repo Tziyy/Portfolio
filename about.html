@@ -1,0 +1,581 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Yap Tzer Yi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Background animation styles */
+        #networkCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .about-container {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Network Animation Canvas -->
+    <canvas id="networkCanvas"></canvas>
+
+    <div class="about-container">
+        <!-- Back to Portfolio Navigation -->
+        <nav class="about-nav">
+            <h1 class="about-title">About Me</h1>
+            <a href="index.html" class="nav-back-right" title="Back to Portfolio">
+                <i class="fas fa-paint-brush"></i> <!-- Changed from fa-arrow-left -->
+            </a>
+        </nav>
+
+        <main class="about-content">
+            <!-- Profile Section -->
+            <section class="profile-section">
+                <div class="section-intro">
+                    <h2><i class="fas fa-user"></i> Profile Overview</h2>
+                    <p>Creative professional with passion for multimedia design</p>
+                </div>
+
+                <div class="profile-card">
+                    <div class="profile-main">
+                        <div class="profile-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="profile-status">
+                                <span class="status-dot"></span>
+                                <span>Available for Opportunities</span>
+                            </div>
+                        </div>
+
+                        <div class="profile-info">
+                            <h3>Yap Tzer Yi</h3>
+                            <p class="profile-title">Multimedia Designer</p>
+
+                            <div class="profile-contact">
+                                <div class="contact-item">
+                                    <i class="fas fa-birthday-cake"></i>
+                                    <div>
+                                        <span class="contact-label">Date of Birth</span>
+                                        <span class="contact-value">21st July 2004</span>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div>
+                                        <span class="contact-label">Location</span>
+                                        <span class="contact-value">Shah Alam, Selangor</span>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <span class="contact-label">Email</span>
+                                        <a href="mailto:tzeryi.yap@gmail.com" class="contact-value">tzeryi.yap@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <div>
+                                        <span class="contact-label">Phone</span>
+                                        <a href="tel:+60184624925" class="contact-value">+60 18-462 4925</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="profile-social">
+                                <a href="https://wa.me/60184624925" class="social-icon" target="_blank" title="WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="mailto:tzeryi.yap@gmail.com" class="social-icon" title="Email">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                                <a href="https://www.instagram.com/_tziyy_/" class="social-icon" target="_blank" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/tzer-yi-yap-178447257/?trk=opento_sprofile_details" class="social-icon" target="_blank" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-bio">
+                        <h4><i class="fas fa-quote-left"></i> About Me</h4>
+                        <div class="bio-content">
+                            <p>
+                                Passionate multimedia designer with a strong foundation in visual communication,
+                                digital media production, and creative problem-solving. Experienced in creating
+                                engaging content across various media platforms, combining technical skills with
+                                artistic vision to deliver compelling visual narratives.
+                            </p>
+                            <p>
+                                A fresh graduate from Asia Pacific University, majoring in Interactive Media and Immersive Technology. 
+                                I thrive in collaborative environments and enjoy transforming ideas into impactful visual experiences.
+                            </p>
+                            <div class="bio-highlights">
+                                <span><i class="fas fa-check-circle"></i> Creative Problem Solving</span>
+                                <span><i class="fas fa-check-circle"></i> Team Collaboration</span>
+                                <span><i class="fas fa-check-circle"></i> Technical Proficiency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <!-- Education Section -->
+            <section class="education-section">
+                <div class="section-intro">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <p>Academic background and qualifications</p>
+                </div>
+
+                <div class="education-grid">
+                    <!-- Degree -->
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <span class="education-level">Bachelor's Degree</span>
+                            <h3 class="education-degree">Interactive Media and Immersive Technology</h3>
+                            <div class="education-institution">
+                                <i class="fas fa-building"></i>
+                                <span>Asia Pacific University</span>
+                            </div>
+                        </div>
+                        <div class="education-body">
+                            <div class="education-meta">
+                                <!-- Duration -->
+                                <div class="meta-item">
+                                    <div class="meta-content">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span class="meta-label">Duration</span>
+                                    </div>
+                                    <span class="meta-value">2022 - 2025</span>
+                                </div>
+                                <!-- Results under duration -->
+                                <div class="meta-item results">
+                                    <div class="meta-content">
+                                        <i class="fas fa-chart-line"></i>
+                                        <span class="meta-label">Status</span>
+                                    </div>
+                                    <span class="meta-value">Current GPA: 3.75</span>
+                                </div>
+                            </div>
+                            <p class="education-description">
+                                Specializing in digital media production, 3D animation, and interactive design.
+                                Coursework includes graphic design, video editing, web design, and motion graphics.
+                            </p>
+                            <div class="education-footer">
+                                <a href="https://drive.google.com/file/d/1SkldGLsNXfoY0_MYT09kFDCNY6R1u8dA/view" class="transcript-btn" target="_blank">
+                                    <i class="fas fa-file-alt"></i> View Transcript
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Foundation -->
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <span class="education-level">Foundation</span>
+                            <h3 class="education-degree">Computing Technology</h3>
+                            <div class="education-institution">
+                                <i class="fas fa-building"></i>
+                                <span>Asia Pacific University</span>
+                            </div>
+                        </div>
+                        <div class="education-body">
+                            <div class="education-meta">
+                                <!-- Duration -->
+                                <div class="meta-item">
+                                    <div class="meta-content">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span class="meta-label">Duration</span>
+                                    </div>
+                                    <span class="meta-value">2021 - 2022</span>
+                                </div>
+                                <!-- Results under duration -->
+                                <div class="meta-item results">
+                                    <div class="meta-content">
+                                        <i class="fas fa-chart-line"></i>
+                                        <span class="meta-label">Results</span>
+                                    </div>
+                                    <span class="meta-value results-value">CGPA: 3.79</span>
+                                </div>
+                            </div>
+                            <p class="education-description">
+                                Completed APU Foundation in Computing Technology. Core studies included programming logic,
+                                computer networks, and system analysis.
+                            </p>
+                            <div class="education-footer">
+                                <a href="https://drive.google.com/file/d/1PLL5MWt7PkOG5WRdevt8yTtYleb7HI0z/view" class="transcript-btn" target="_blank">
+                                    <i class="fas fa-file-alt"></i> View Transcript
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- High School -->
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <span class="education-level">High School</span>
+                            <h3 class="education-degree">IGCSE Certificate</h3>
+                            <div class="education-institution">
+                                <i class="fas fa-building"></i>
+                                <span>R.E.A.L International School</span>
+                            </div>
+                        </div>
+                        <div class="education-body">
+                            <div class="education-meta">
+                                <!-- Duration -->
+                                <div class="meta-item">
+                                    <div class="meta-content">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span class="meta-label">Duration</span>
+                                    </div>
+                                    <span class="meta-value">2016 - 2021</span>
+                                </div>
+                                <!-- Results under duration -->
+                                <div class="meta-item results">
+                                    <div class="meta-content">
+                                        <i class="fas fa-chart-line"></i>
+                                        <span class="meta-label">Results</span>
+                                    </div>
+                                    <span class="meta-value results-value">7A's</span>
+                                </div>
+                            </div>
+                            <p class="education-description">
+                                Completed IGCSE with a mixture of sciences, business, computer science, and
+                                common subjects such as mathematics and English. Actively participated in sports, 
+                                served as a vice captain for my color house, and held the role of class monitor.
+                            </p>
+                            <div class="education-footer">
+                                <a href="https://drive.google.com/file/d/1hpquvrdVfwoxalGTxJjTgNObxZnNt7UM/view" class="transcript-btn" target="_blank">
+                                    <i class="fas fa-file-certificate"></i> View Results
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Work Experience Section -->
+            <section class="experience-section">
+                <div class="section-intro">
+                    <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+                    <p>Professional journey and internships</p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-badge">
+                        <span class="badge-label">Internship</span>
+                    </div>
+                    <div class="experience-header">
+                        <h3 class="experience-title">Multimedia Designer</h3>
+                        <div class="experience-company">
+                            <i class="fas fa-building"></i>
+                            <span>NexSucceed Academy Sdn Bhd</span>
+                        </div>
+                        <div class="experience-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>30th Sep 2024 - 17th Jan 2025</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-body">
+                        <div class="experience-content">
+                            <h4><i class="fas fa-tasks"></i> Responsibilities</h4>
+                            <ul>
+                                <li>Designed marketing materials for social media, including promotional posters and digital banners</li>
+                                <li>Produced physical branding assets such as namecards and handheld banners for events</li>
+                                <li>Videographed live events and edited footage into polished promotional videos</li>
+                                <li>Collaborated with instructional designers to enhance learning experiences</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience-skills">
+                            <h4><i class="fas fa-tools"></i> Skills Applied</h4>
+                            <div class="skills-tags">
+                                <span class="skill-tag">Adobe Creative Suite</span>
+                                <span class="skill-tag">Motion Graphics</span>
+                                <span class="skill-tag">Video Editing</span>
+                                <span class="skill-tag">Graphic Design</span>
+                                <span class="skill-tag">UI/UX Design</span>
+                                <span class="skill-tag">Animation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Achievements Section -->
+            <section class="achievements-section">
+                <div class="section-intro">
+                    <h2><i class="fas fa-trophy"></i> Achievements</h2>
+                    <p>Awards, certifications, and recognitions</p>
+                </div>
+
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <div class="achievement-badge">
+                                <span>Photoshop Certified</span>
+                            </div>
+                            <h3>Adobe Certified Professional in Visual Design Using Adobe Photoshop</h3>
+                            <div class="achievement-meta">
+                                <span class="meta-item"><i class="fas fa-calendar"></i> 2023</span>
+                                <span class="meta-item"><i class="fas fa-university"></i> University</span>
+                            </div>
+                            <p>Participated in the Adobe Certified Professional workshop, gaining hands-on experience in advanced Photoshop tools and industry-standard design practices.</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Add more achievement cards as needed -->
+                    <div class="achievement-card coming-soon">
+                        <div class="achievement-icon">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h3>More Achievements Coming Soon</h3>
+                            <p>Continually working on new projects and professional development</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Summary -->
+            <section class="skills-section">
+                <div class="section-intro">
+                    <h2><i class="fas fa-star"></i> Core Skills</h2>
+                    <p>Technical and professional competencies</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-paint-brush"></i>
+                            <h3>Design</h3>
+                        </div>
+                        <div class="skill-items">
+                            <span>Graphic Design</span>
+                            <span>UI/UX Design</span>
+                            <span>Motion Graphics</span>
+                            <span>Brand Identity</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-video"></i>
+                            <h3>Multimedia</h3>
+                        </div>
+                        <div class="skill-items">
+                            <span>Graphic Design</span>
+                            <span>Video Production</span>
+                            <span>3D Modeling</span>
+                            <span>Animation</span>
+                            <span>Audio Production</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Technical</h3>
+                        </div>
+                        <div class="skill-items">
+                            <span>Adobe Creative Suite</span>
+                            <span>Capcut</span>
+                            <span>Blender</span>
+                            <span>HTML/CSS</span>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-users"></i>
+                            <h3>Professional</h3>
+                        </div>
+                        <div class="skill-items">
+                            <span>Creative Problem Solving</span>
+                            <span>Team Collaboration</span>
+                            <span>Project Management</span>
+                         
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="about-footer">
+            <p class="copyright">© 2025 Yap Tzer Yi. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Background Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const canvas = document.getElementById('networkCanvas');
+            const ctx = canvas.getContext('2d');
+
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+
+            resizeCanvas();
+            window.addEventListener('resize', resizeCanvas);
+
+            class Node {
+                constructor(x, y) {
+                    this.x = x;
+                    this.y = y;
+                    this.vx = (Math.random() - 0.5) * 0.5;
+                    this.vy = (Math.random() - 0.5) * 0.5;
+                    this.radius = Math.random() * 1.5 + 0.5;
+                    const blueShades = [
+                        'rgba(59, 130, 246, 0.8)',
+                        'rgba(37, 99, 235, 0.8)',
+                        'rgba(96, 165, 250, 0.8)',
+                        'rgba(29, 78, 216, 0.8)'
+                    ];
+                    this.color = blueShades[Math.floor(Math.random() * blueShades.length)];
+                }
+
+                update() {
+                    this.x += this.vx;
+                    this.y += this.vy;
+                    if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+                    if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+                    this.x = Math.max(0, Math.min(canvas.width, this.x));
+                    this.y = Math.max(0, Math.min(canvas.height, this.y));
+                }
+
+                draw() {
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                    ctx.fillStyle = this.color;
+                    ctx.fill();
+
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.radius * 3, 0, Math.PI * 2);
+                    const gradient = ctx.createRadialGradient(
+                        this.x, this.y, this.radius,
+                        this.x, this.y, this.radius * 3
+                    );
+                    gradient.addColorStop(0, this.color.replace('0.8', '0.4'));
+                    gradient.addColorStop(1, this.color.replace('0.8', '0'));
+                    ctx.fillStyle = gradient;
+                    ctx.fill();
+                }
+            }
+
+            const nodes = [];
+            const nodeCount = Math.min(60, Math.floor((canvas.width * canvas.height) / 15000));
+
+            for (let i = 0; i < nodeCount; i++) {
+                nodes.push(new Node(
+                    Math.random() * canvas.width,
+                    Math.random() * canvas.height
+                ));
+            }
+
+            function drawConnections() {
+                for (let i = 0; i < nodes.length; i++) {
+                    for (let j = i + 1; j < nodes.length; j++) {
+                        const dx = nodes[i].x - nodes[j].x;
+                        const dy = nodes[i].y - nodes[j].y;
+                        const distance = Math.sqrt(dx * dx + dy * dy);
+
+                        if (distance < 120) {
+                            const opacity = 1 - (distance / 120);
+                            ctx.beginPath();
+                            ctx.moveTo(nodes[i].x, nodes[i].y);
+                            ctx.lineTo(nodes[j].x, nodes[j].y);
+                            ctx.strokeStyle = `rgba(59, 130, 246, ${opacity * 0.5})`;
+                            ctx.lineWidth = 0.8;
+                            ctx.stroke();
+                        }
+                    }
+                }
+            }
+
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                nodes.forEach(node => {
+                    node.update();
+                    node.draw();
+                });
+                drawConnections();
+                requestAnimationFrame(animate);
+            }
+
+            animate();
+
+            let mouseX = -1000;
+            let mouseY = -1000;
+
+            document.addEventListener('mousemove', (e) => {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+            });
+
+            document.addEventListener('mouseleave', () => {
+                mouseX = -1000;
+                mouseY = -1000;
+            });
+
+            const originalUpdate = Node.prototype.update;
+            Node.prototype.update = function () {
+                originalUpdate.call(this);
+
+                const dx = this.x - mouseX;
+                const dy = this.y - mouseY;
+                const distance = Math.sqrt(dx * dx + dy * dy);
+
+                if (distance < 80) {
+                    const force = (80 - distance) / 80;
+                    this.vx += (dx / distance) * force * 0.3;
+                    this.vy += (dy / distance) * force * 0.3;
+
+                    const speed = Math.sqrt(this.vx * this.vx + this.vy * this.vy);
+                    if (speed > 2) {
+                        this.vx = (this.vx / speed) * 2;
+                        this.vy = (this.vy / speed) * 2;
+                    }
+                }
+            };
+        });
+    </script>
+</body>
+</html>

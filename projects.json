@@ -1,0 +1,882 @@
+﻿{
+  "projects": [
+    {
+
+      "id": 1,
+      "title": "Flying Stone (Second Session)",
+      "category": "video",
+      "type": "Work Project",
+      "date": "August 2024",
+      "tools": [ "After Effects", "Capcut" ],
+      "skills": [ "Video Editing", "Footage Review", "Storytelling", "Post-Production" ],
+      "description": "I was responsible for reviewing all the filmed footage from the event, organizing the clips, and editing them into a cohesive and polished final video. This included selecting the best shots, arranging the sequence for smooth storytelling, and ensuring the final output met the event’s visual and quality standards.",
+      "links": [
+        {
+          "text": "View on Site",
+          "url": "https://nsdacademy.co/2024818-copy"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/13xEoEERCYhuBSV_r5-495zYsa3A5Lt4U/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/13xEoEERCYhuBSV_r5-495zYsa3A5Lt4U/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 2,
+      "title": "Flying Stone (Third Session)",
+      "category": "video",
+      "type": "Work Project",
+      "date": "December 2024",
+      "tools": [ "After Effects", "Capcut" ],
+      "skills": [ "Videographing", "Video Editing", "Footage Review", "Storytelling", "Post-Production" ],
+      "description": "I was responsible for filming the event as well as managing the entire post-production process. This included reviewing all recorded footage, organizing and selecting the best shots, and editing the clips into a cohesive and polished final video. I handled both the videography and the storytelling flow to ensure the final output met the event’s visual and quality standards.",
+      "links": [
+        {
+          "text": "View on Site",
+          "url": "https://nsdacademy.co/20241215-"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1OKcqJzkQiWCvLWJvHkzHfcNnbZmqxmzl/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1OKcqJzkQiWCvLWJvHkzHfcNnbZmqxmzl/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 3,
+      "title": "Thailand Expedition Convention and Workshop",
+      "category": "video",
+      "type": "Work Project",
+      "date": "January 2025",
+      "tools": [ "DJI Pocket 3" ],
+      "skills": [ "Videographing", "Footage Review" ],
+      "description": "I was responsible for filming the entire trip and event, capturing all key moments and ensuring high-quality footage. I also reviewed and organized the recorded clips before passing them on to the next team for further editing and production.",
+      "links": [
+        {
+          "text": "View on Site",
+          "url": "https://nsdacademy.co/202511316-13th-16th-january-2025-thailand-expedition-convention-and-workshop"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/10WQuVJMn0GEUt9FRBNzF4Gg2Kfhj7Ibc/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/10WQuVJMn0GEUt9FRBNzF4Gg2Kfhj7Ibc/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 4,
+      "title": "Pre- Chinese New Year Dinner",
+      "category": "video",
+      "type": "Work Project",
+      "date": "January 2025",
+      "tools": [ "DJI Pocket 3" ],
+      "skills": [ "Videographing", "Footage Review" ],
+      "description": "I was responsible for filming the entire event, capturing all key moments and ensuring high-quality footage. I also reviewed and organized the recorded clips before passing them on to the next team for further editing and production.",
+      "links": [
+        {
+          "text": "View on Site",
+          "url": "https://nsdacademy.co/17th-january-2025-year-end-company-chinese-new-year-dinner"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1NvqoQxpDeSsYyu9BHrU-_fWR9CZRii_A/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1NvqoQxpDeSsYyu9BHrU-_fWR9CZRii_A/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 5,
+      "title": "Chinese New Year Open House",
+      "category": "video",
+      "type": "Work Project",
+      "date": "February 2025",
+      "tools": [ "DJI Pocket 3" ],
+      "skills": [ "Videographing", "Footage Review" ],
+      "description": "I was responsible for filming the entire event, capturing all key moments and ensuring high-quality footage. I also reviewed and organized the recorded clips before passing them on to the next team for further editing and production.",
+      "links": [
+        {
+          "text": "View on Site",
+          "url": "https://nsdacademy.co/8th-february-2025-nexsucceed-hq-chinese-new-year-open-house"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1HtytdAXu1_zUojxVgmmFUjbTeHfa3XsB/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1HtytdAXu1_zUojxVgmmFUjbTeHfa3XsB/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 6,
+      "title": "NSD Hiring Instagram Story",
+      "category": "video",
+      "type": "Work Project",
+      "date": "October 2024",
+      "tools": [ "After Effects", "Capcut" ],
+      "skills": [ "Video Editing", "Motion Graphics" ],
+      "description": "I was responsible for creating a hiring post for the company’s Instagram Story, including designing the visuals and producing a short promotional video.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/11jRxdHJ8po5ZjSnGWHKdpaKBCbcHCL1E/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/19p3EWGfbxhiNNPwqa6HPNAZ6JKpXdorX/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 7,
+      "title": "Drowning (A Short Film)",
+      "category": "video",
+      "type": "University Assignment",
+      "date": "August 2024",
+      "tools": [ "Capcut" ],
+      "skills": [ "Planning & Scripting", "Videographing", "Video Editing", "Footage Review", "Storytelling", "Post-Production" ],
+      "description": "This short film delves into the topic of depression, portraying the emotional struggles faced by individuals in a sensitive and relatable way. Beyond storytelling, it aims to raise awareness about mental health and provide viewers with helpful resources, including hotlines and support services. The project combines creative expression with social impact, encouraging empathy and understanding for those affected by mental health challenges.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1DyD46l-sxdnGSAwr7YBgwcvSFIRmHcHj/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1iwtRi0CSogmBV0Mfghl76wtT2kPaFMMa/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 8,
+      "title": "The 11:59 Curse (Interactive Short Film)",
+      "category": "video",
+      "type": "University Assignment",
+      "date": "June 2025",
+      "tools": [ "After Effects", "Capcut" ],
+      "skills": [ "Planning & Scripting", "Videographing", "Video Editing", "Footage Review", "Storytelling", "Post-Production", "Motion Graphics", "Color Grading" ],
+      "description": "This interactive short film combines horror elements with a cartoon-inspired style, drawing inspiration from Doraemon, to visualize a student’s struggle with assignment deadlines. Viewers can actively participate by making choices that influence how the story unfolds and ultimately concludes. The project explores stress and decision-making in a creative, engaging, and immersive way, offering a unique blend of animation, interactivity, and narrative storytelling.",
+      "links": [
+        {
+          "text": "View on YouTube",
+          "url": "https://www.youtube.com/@GroupD-MMAGF"
+        }
+      ],
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1YC2Ct07HFI4TG6WKwdCVxi57Ef580gwM/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1KmeOiCcUySrkUgEXtGDtj2K_S7w7Pjcs/preview"
+        },
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1Kcr4dH9UfPP8sz_2u8T1-_0V5WvTM2Ep/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1KmeOiCcUySrkUgEXtGDtj2K_S7w7Pjcs/preview"
+        },
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1-PUb74d0LGr8QwztGWVGukeW051gDv1b/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1KmeOiCcUySrkUgEXtGDtj2K_S7w7Pjcs/preview"
+        },
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1R4zQ_4CjWC3wYusPkIRpwmFhnBtoajPt/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1KmeOiCcUySrkUgEXtGDtj2K_S7w7Pjcs/preview"
+        },
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1lN00fJ7Cr2yAAzCw-Twto5IABXHB94Uz/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1KmeOiCcUySrkUgEXtGDtj2K_S7w7Pjcs/preview"
+        },
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1sCAM0GuXUlXJ_KULKAY43NzDlVjRxryk/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1KmeOiCcUySrkUgEXtGDtj2K_S7w7Pjcs/preview"
+        },
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1uBXkR0m_wiC2P9qEh0YPCsD2v5fnCfsZ/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1KmeOiCcUySrkUgEXtGDtj2K_S7w7Pjcs/preview"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Japan Street",
+      "category": "3d",
+      "type": "University Assignment",
+      "date": "October 2025",
+      "tools": [ "Blender", "Unreal Engine", "Capcut" ],
+      "skills": [ "3D Modelling", "3D Motions (Camera)", "3D Animating", "Video Editing" ],
+      "description": "Inspired by the Fujiwara Tofu Shop, this 3D modeling project recreates a vibrant Japanese street scene. My team enhanced the environment with detailed props and subtle animations to bring the scene to life, creating an immersive and visually engaging experience. The project demonstrates attention to detail, creative design, and the ability to combine modeling, texturing, and animation for a dynamic virtual environment.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1Pr1Um2x3UYdL6kep_s-9_Z6GmtVxTmGF/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1xFjvT06rN81wguZJbnlyNlMJ2RY70Efd/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1zAD9luXsvGlURUEfuQ-IOXU27WIZarYw/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1zAD9luXsvGlURUEfuQ-IOXU27WIZarYw/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1O0lVZJbJvAjReB6YVfNMeQ8NQnPupLBX/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1O0lVZJbJvAjReB6YVfNMeQ8NQnPupLBX/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1dOP7tLy6HTO1EJmdi-gobMBbITDw_D-A/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1dOP7tLy6HTO1EJmdi-gobMBbITDw_D-A/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1CttJTE-6tch-Ze9T8-bNty7Vz7m1d4Eu/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1CttJTE-6tch-Ze9T8-bNty7Vz7m1d4Eu/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1VodNxlv_7NhvJg690Cg94l8WQY2WRl7L/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1VodNxlv_7NhvJg690Cg94l8WQY2WRl7L/preview"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Fruits/Vegetables Consumption Awarness",
+      "category": "3d",
+      "type": "University Assignment",
+      "date": "April 2023",
+      "tools": [ "3ds Max", "Capcut" ],
+      "skills": [ "3D Modelling", "3D Motions (Camera)", "3D Animating", "Video Editing" ],
+      "description": "This 3D motion project aims to raise awareness about the importance of fruit and vegetable consumption. Through dynamic 3D visuals and motion design, the project highlights healthy eating in an engaging and visually appealing way. It demonstrates the use of 3D modeling and animation to communicate educational messages creatively and effectively.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1C5Y-9MUQZgtqmjeEgiIMLgdTalVJJFhF/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1C5Y-9MUQZgtqmjeEgiIMLgdTalVJJFhF/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1-KjRA1i-9SpJbDv5NzWuKFfdHQ6BTLZb/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1-KjRA1i-9SpJbDv5NzWuKFfdHQ6BTLZb/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/18BlHfqzgfuJG5XT2KF-QKoF3fDVi1OO8/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/18BlHfqzgfuJG5XT2KF-QKoF3fDVi1OO8/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1XUlOYmum0Q_go4qwJSwKIJ8UxeuvKIBK/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1XUlOYmum0Q_go4qwJSwKIJ8UxeuvKIBK/preview"
+        }
+
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Valorant Agent",
+      "category": "3d",
+      "type": "University Assignment",
+      "date": "March 2024",
+      "tools": [ "3ds Max", "Zbrush" ],
+      "skills": [ "3D Modelling", "Sculpting" ],
+      "description": "his 3D modeling project focuses on creating the Valorant agent Gekko, including his ability Wingman. The project highlights careful attention to character design, proportions, and details, showcasing skills in recreating a recognizable game character in 3D form.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1jYuqQ-b4pufAporEoEVMuG_ePnKXytix/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1jYuqQ-b4pufAporEoEVMuG_ePnKXytix/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1QudCF9ojwREYZTYQnATTqXqgNtv7Z2CX/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1QudCF9ojwREYZTYQnATTqXqgNtv7Z2CX/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1_DpzXU6oCYg3Xg05tz-PqL1RIjKviAYX/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1_DpzXU6oCYg3Xg05tz-PqL1RIjKviAYX/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1EOPCap4fg67REZkHbfhkiE2VBqh2aER3/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1EOPCap4fg67REZkHbfhkiE2VBqh2aER3/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1v0KODedQus_lTgbfXROs83OZzlbgloeM/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1v0KODedQus_lTgbfXROs83OZzlbgloeM/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1-2Sny39txvf6bod1Xj5KLKsL8Gmo2GvD/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1-2Sny39txvf6bod1Xj5KLKsL8Gmo2GvD/preview"
+        }
+
+      ]
+    },
+    {
+
+      "id": 12,
+      "title": "Radio Advertisement(Tokyo Auto Salon)",
+      "category": "audio",
+      "type": "University Assignment",
+      "date": "August 2023",
+      "tools": [ "Audacity", "Microphone" ],
+      "skills": [ "Audio production and editing", "Sound design and layering", "Scriptwriting and narration" ],
+      "description": "Created a complete radio advertisement for the Tokyo Auto Salon car event. Wrote and recorded all narrations, incorporated sound effects (including some self-recorded), and arranged everything in Audacity to produce a polished and engaging audio piece.",
+      "media": [
+        {
+          "type": "audio",
+          "embed": "<iframe src='https://drive.google.com/file/d/18vE9h68vOyUFHNbzBcZdUaEjPD7sggkb/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/18vE9h68vOyUFHNbzBcZdUaEjPD7sggkb/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 13,
+      "title": "Chill Acoustic Beat",
+      "category": "audio",
+      "type": "University Assignment",
+      "date": "April 2023",
+      "tools": [ "Audacity", "Microphone" ],
+      "skills": [ "Audio production and editing", "Sound design and layering", "Scriptwriting and narration" ],
+      "description": "Created an original chill acoustic beat by combining a mixture of different instruments and electronic music tools. The project involved arranging, layering, and mixing sounds to produce a relaxing and cohesive instrumental track.",
+      "media": [
+        {
+          "type": "audio",
+          "embed": "<iframe src='https://drive.google.com/file/d/1VUJZbXqLLEh4h9a7c0rfyHfnwwdRpVRA/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1VUJZbXqLLEh4h9a7c0rfyHfnwwdRpVRA/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 14,
+      "title": "Game Instruction Animation",
+      "category": "animation",
+      "type": "Work Project",
+      "date": "November 2024",
+      "tools": [ "Adobe Animate", "Capcut" ],
+      "skills": [ "2D Animation", "Video Editing", "Visual storytelling and instructional design" ],
+      "description": "Created multiple instructional videos for several games featured in the Thailand Expedition Convention and Workshop. Each video combines 2D animation, text, and audio narration to guide players through game mechanics and rules, ensuring a clear and engaging learning experience.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1HE3zXy2VF4RcL8tIn0RfP3KwfiyqpC1u/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1HE3zXy2VF4RcL8tIn0RfP3KwfiyqpC1u/preview"
+        },
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1Jjx5HBPGjjQBYuwEMJdWZoQuKM3muciy/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1Jjx5HBPGjjQBYuwEMJdWZoQuKM3muciy/preview"
+        },
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1dG86vZC3V3ZVlYkLVP4l3dO2hqI5ajfR/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1dG86vZC3V3ZVlYkLVP4l3dO2hqI5ajfR/preview"
+        },
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1es9zhWBRxvCQcjuVxLrw8gH34Ue5VzGQ/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1es9zhWBRxvCQcjuVxLrw8gH34Ue5VzGQ/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 15,
+      "title": "MyWildlife App (FYP)",
+      "category": "animation",
+      "type": "University Assignment",
+      "date": "September 2025",
+      "tools": [ "Adobe Animate", "Blender", "MyARStudio", "Adobe AIR sdk" ],
+      "skills": [ "2D Animation", "3D Modelling", "AR", "UI/UX", "Desktop Application Development" ],
+      "description": "Developed an educational mobile application aimed at raising awareness about endangered animals in Malaysia. The app integrates 2D animations and augmented reality (AR) to provide an interactive and immersive learning experience. Users can explore animal profiles, learn about conservation efforts, and interact with animated content that makes information engaging and memorable. The project emphasizes both educational value and user engagement, combining technology and storytelling to promote wildlife awareness.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1Mp0nuPdnmq4q4zq_Qgm3Gg5urQYlhjBS/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1y6majHUAT2FzL2ueRCzLh5t0xFSLNRk-/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 16,
+      "title": "Course Compass with RIASEC",
+      "category": "animation",
+      "type": "University Assignment",
+      "date": "October 2025",
+      "tools": [ "Adobe Animate", "Adobe AIR sdk" ],
+      "skills": [ "2D Animation", "UI/UX", "Desktop Application Development" ],
+      "description": "Developed an interactive mobile application to help students discover suitable courses based on their personality. Users complete a test based on the RIASEC model, receive their top two personality codes, and explore detailed explanations of each personality type. The app also suggests relevant courses, with direct links to APU course offerings. This project combines educational guidance, interactive assessment, and user-friendly design to support informed course selection.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1SxiZDzRFC9qFe4V9Bbuqj5iECAuQPh05/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1uTUbaS8XcqrdKc_8JbwV5QLgaYjPgKEH/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 17,
+      "title": "Warden Monster (2D Animation Game)",
+      "category": "animation",
+      "type": "University Assignment",
+      "date": "May 2025",
+      "tools": [ "Adobe Animate", "Audacity" ],
+      "skills": [ "2D game design and animation", "Story development and narrative writing", "Voice recording and narration", "Audio editing and sound integration" ],
+      "description": "Warden Monster is a 2D game created in Adobe Animate as a group project. The game follows a storyline where players must fight off monsters to stop them from entering and destroying the village. It features three different games, each with its own levels and challenges. The project includes narrative development, character creation, and world-building to deliver an engaging gameplay experience.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1X75U-fAaJ1-TmBqRzVhKXWRCAgHkAoHp/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1EukrhWlirTqJAIl8XEcsqtJRADCBMtPm/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 18,
+      "title": "Bleach (E-Comic)",
+      "category": "animation",
+      "type": "University Assignment",
+      "date": "March 2024",
+      "tools": [ "Adobe Animate", "Capcut" ],
+      "skills": [ "2D animation", "Interactive design", "Simple game development", "UI layout and navigation" ],
+      "description": "Bleach E-Comic is an interactive digital comic created using Adobe Animate. The project allows users to read through a stylized comic while engaging with special hover-activated scenes that reveal the actual animated moments from the story. It also includes a character introduction section where users can explore detailed information about each character. Additionally, the project features a short maze mini-game in which players control a character to navigate the maze and defeat monsters. This blend of storytelling, interaction, and gameplay creates an immersive digital comic experience.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1cyBvOQFaxlWU6bdXhkb5mllppNd5VzqN/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/18MwZxbnA20HK9XLIE3q7FRnXJrfMHdVG/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 19,
+      "title": "E-Portfolio",
+      "category": "animation",
+      "type": "University Assignment",
+      "date": "August 2024",
+      "tools": [ "Adobe Animate", "Adobe After Effect" ],
+      "skills": [ "2D animation", "Interactive design", "UI/UX navigation", "Content organization" ],
+      "description": "This project is an interactive e-portfolio created using Adobe Animate. It showcases my selected projects, skills, education background, achievements, and personal information. The portfolio is designed with animated transitions and interactive navigation to provide a smooth and engaging user experience.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1auYDgoRIU7Id55RGlwVM2w1R7Et2Nf1F/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1g0F8gzPcLJCcJd0uEexucYbGZ4Vv7M6C/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 20,
+      "title": "Human Internal Organs",
+      "category": "animation",
+      "type": "University Assignment",
+      "date": "September 2022",
+      "tools": [ "Adobe Animate" ],
+      "skills": [ "2D animation", "Audio narration integration" ],
+      "description": "This project is an educational app designed to help users understand the functions of human internal organs. It features short, simple animations paired with audio explanations that describe how each organ works. The app also includes a final scenario animation that shows how the organs function together as a system, making the learning experience clear, engaging, and easy to follow.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1ZfehVNNe_oZ9sALjJgsYQK0fmjAi7D93/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1W6L3MncPBixMkwdUw11d1zuj04JbalIX/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 21,
+      "title": "Bob and the Genie (Interactive Storytelling)",
+      "category": "animation",
+      "type": "University Assignment",
+      "date": "March 2024",
+      "tools": [ "Adobe Animate" ],
+      "skills": [ "2D animation", "Audio narration integration" ],
+      "description": "Bob and the Genie is an interactive storytelling project that combines a short animated story with simple interactive puzzles. Users must complete these puzzles to progress through the narrative. The story follows a group of minions searching for food, where one minion discovers a genie who offers him a choice: make a selfish wish for himself, causing the others to starve, or wish for food to save everyone. The project blends storytelling, decision-making, and light gameplay to create an engaging interactive experience.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1jKl--_4SHq-KBXSdreMel9_tsUyqNC8K/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1hmyLMdpWmcWhwpls3Tyi_X6m-I2GSwrb/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 22,
+      "title": "Ultraboost PB Brochure (Adidas)",
+      "category": "graphic",
+      "type": "University Assignment",
+      "date": "February 2023",
+      "tools": [ "Adobe Photoshop" ],
+      "skills": [ "Photo editing and composition", "Product presentation", "Branding and visual consistency", "Brochure layout design" ],
+      "description": "This project involves designing a promotional brochure for the Adidas Ultraboost PB running shoes. The brochure highlights the shoe’s key features, performance benefits, and visual appeal. It was created as part of an assignment focused on layout design, branding consistency, and product presentation.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1jZR4AILUSJNOcKsrNn6zIYSTyITx9x1i/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1jZR4AILUSJNOcKsrNn6zIYSTyITx9x1i/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1XNbtMpNDysVtcQraHWYsOLIokUvdHEH1/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1XNbtMpNDysVtcQraHWYsOLIokUvdHEH1/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1cQJs1TA6njRoZc9s1QXVb0qwj6Un5ivK/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1cQJs1TA6njRoZc9s1QXVb0qwj6Un5ivK/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 23,
+      "title": "ZW3D Product Poster",
+      "category": "graphic",
+      "type": "University Assignment",
+      "date": "March 2023",
+      "tools": [ "Adobe Photoshop" ],
+      "skills": [ "Basic layout and composition", "Branding matching", "Poster design" ],
+      "description": "This project involves designing a product poster for ZW3D, a software product by ZWSoft. The design takes inspiration from ZWSoft’s existing banners and promotional visuals, incorporating their color themes, branding style, and layout approach. The poster was fully created in Photoshop, focusing on clear product presentation while maintaining strong brand consistency.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1XcviD--0juTuBfJNfj4M1vlRCvaImJfd/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1XcviD--0juTuBfJNfj4M1vlRCvaImJfd/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 24,
+      "title": "Poster Recreation",
+      "category": "graphic",
+      "type": "University Assignment",
+      "date": "April 2024",
+      "tools": [ "Adobe Photoshop" ],
+      "skills": [ "Poster Recreation", "Layout Design", "Typography", "Visual Composition" ],
+      "description": "As part of the assessment for the NDA of Participation – Workshop Adobe Certified Professional 2024, I recreated a Malaysian movie poster, carefully analyzing the original design and producing a faithful yet refined version. The project focused on layout, typography, and visual composition to accurately capture the essence of the original poster.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1e3dZ_q3T1mndnkWlg-Dug9DtaPxxaCo2/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1e3dZ_q3T1mndnkWlg-Dug9DtaPxxaCo2/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 25,
+      "title": "Fruits/Vegetables Awarness",
+      "category": "graphic",
+      "type": "University Assignment",
+      "date": "March 2023",
+      "tools": [ "Adobe Photoshop" ],
+      "skills": [ "Poster Design", "Visual Communication", "Layout Design" ],
+      "description": "I designed an awareness poster promoting the benefits of fruits and vegetables, focusing on clear messaging, engaging visuals, and effective layout. The project aimed to educate and attract attention while maintaining a visually appealing and informative design.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1gVpW2yesVnkNpo84dEX_CtW_RGMjvF1W/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1gVpW2yesVnkNpo84dEX_CtW_RGMjvF1W/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 26,
+      "title": "Deepavali Social Media Posts",
+      "category": "graphic",
+      "type": "Work Project",
+      "date": "October 2024",
+      "tools": [ "Adobe Photoshop", "Canva" ],
+      "skills": [ "Social Media Design", "Branding", "Layout Design", "Color Selection" ],
+      "description": "I designed a set of five Deepavali-themed social media posts for five different companies, tailoring each design to match the brand’s identity while maintaining a festive and cohesive visual style. The project involved creating engaging layouts, applying suitable color palettes, and ensuring each post was visually appealing for online audiences.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1atqro9K1uPY-Cg8QWh288yKyRX71JGDr/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1atqro9K1uPY-Cg8QWh288yKyRX71JGDr/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/17U4wdOyMRMExBF3YB7GkPfuyOn5DLtYP/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/17U4wdOyMRMExBF3YB7GkPfuyOn5DLtYP/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1d2WIHxAW-LAy181cmuPuZ6y1-0sNhtbd/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1d2WIHxAW-LAy181cmuPuZ6y1-0sNhtbd/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1p1ukl1VilLKMFqPP4I27W1HDxlcBYqEm/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1p1ukl1VilLKMFqPP4I27W1HDxlcBYqEm/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1bF-BH7S4-ub2KVefz1t3Fs1UTLM61-Sq/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1bF-BH7S4-ub2KVefz1t3Fs1UTLM61-Sq/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 27,
+      "title": "Website Banners",
+      "category": "graphic",
+      "type": "Work Project",
+      "date": "October 2024",
+      "tools": [ "Adobe Photoshop" ],
+      "skills": [ "Web Banner Design", "Layout Design", "Branding", "Visual Composition" ],
+      "description": "I created a series of five website banners for a company, focusing on visually appealing designs that aligned with the brand’s identity and website aesthetics. The project involved layout planning, imagery selection, and producing polished banners suitable for online display.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/19-ubgMFSHP6Kbhb3RtAUO85fu9Ene57X/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/19-ubgMFSHP6Kbhb3RtAUO85fu9Ene57X/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1nvcm57flRYKF0sc5OUQZVcwWZObhC7QR/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1nvcm57flRYKF0sc5OUQZVcwWZObhC7QR/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/14upIgdZ0LabgVq9-mNImWYYbGo0PaA5W/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/14upIgdZ0LabgVq9-mNImWYYbGo0PaA5W/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1voS_bR_0J2DH1KncbEurP-G5wZEOjqvz/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1voS_bR_0J2DH1KncbEurP-G5wZEOjqvz/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1zxs0DmnogqLVj7em3FkRQ9qurRIxYLxu/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1zxs0DmnogqLVj7em3FkRQ9qurRIxYLxu/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 28,
+      "title": "Hiring Poster (A3 & Social Media)",
+      "category": "graphic",
+      "type": "Work Project",
+      "date": "October 2024",
+      "tools": [ "Adobe Photoshop" ],
+      "skills": [ "Poster Design", "Layout Design", "Branding", "Visual Composition" ],
+      "description": "I designed hiring posters in both A3 print size and social media-friendly formats, ensuring the visuals were clear, engaging, and aligned with the company’s branding. The project involved layout design, typography, and producing versatile graphics suitable for multiple platforms..",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1M-r37-cLGg9S6ye27Oofn88f7JV59K41/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1M-r37-cLGg9S6ye27Oofn88f7JV59K41/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1lq24WR1U4lJ_CnAm4cesaaVxPh5YMBRH/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1lq24WR1U4lJ_CnAm4cesaaVxPh5YMBRH/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1ORRc1JvCEvVb1bWPBwcxTtLqW5-VQXTx/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1ORRc1JvCEvVb1bWPBwcxTtLqW5-VQXTx/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/14pZfcgL8ZSlmBxYn3D7GCVkhe0uTmeQt/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/14pZfcgL8ZSlmBxYn3D7GCVkhe0uTmeQt/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 29,
+      "title": "Flying Stone (Social Media Post)",
+      "category": "graphic",
+      "type": "Work Project",
+      "date": "November 2024",
+      "tools": [ "Adobe Illustrator" ],
+      "skills": [ "Social Media Design", "Event Promotion", "Branding", "Visual Composition" ],
+      "description": "I created a social media post to promote a company event, focusing on eye-catching visuals and clear messaging to engage the target audience. The project involved designing the layout, selecting colors and imagery, and ensuring the post aligned with the company’s branding.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1xHyfYwckh_yZ8D6RYxZpmZJOWKY0l4Pr/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1xHyfYwckh_yZ8D6RYxZpmZJOWKY0l4Pr/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 30,
+      "title": "Online Portal Training Social Media Post",
+      "category": "graphic",
+      "type": "Work Project",
+      "date": "October 2024",
+      "tools": [ "Adobe Illustrator" ],
+      "skills": [ "Social Media Design", "Event Announcement", "Branding", "Visual Composition" ],
+      "description": "I designed a social media announcement post for an online training portal, creating visuals that clearly communicated the event while maintaining the brand’s style. The project involved layout design, color selection, and ensuring the post was engaging for online audiences.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1astwhRXAS5PmUkX07Q-OIsZv71mEaiCD/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1astwhRXAS5PmUkX07Q-OIsZv71mEaiCD/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1d-lzGz0keHsYF5sh4B3No6uxaxjirXNU/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1d-lzGz0keHsYF5sh4B3No6uxaxjirXNU/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 31,
+      "title": "Namecard",
+      "category": "graphic",
+      "type": "Work Project",
+      "date": "November 2024",
+      "tools": [ "Adobe Illustrator" ],
+      "skills": [ "Namecard Design", "Layout Design", "Branding", "Typography" ],
+      "description": "I designed a professional namecard that effectively delivered essential information while maintaining brand consistency. The project focused on clear typography, balanced layout, and a visually appealing design that represented the individual or company.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/183cCKycLHi98uRWsB03YoCwt773cuUwA/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/183cCKycLHi98uRWsB03YoCwt773cuUwA/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1np1cAz9M80r8lMjecWasPUsPdx4_l93U/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1np1cAz9M80r8lMjecWasPUsPdx4_l93U/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 32,
+      "title": "Certificate",
+      "category": "graphic",
+      "type": "Work Project",
+      "date": "November 2024",
+      "tools": [ "Adobe Illustrator" ],
+      "skills": [ "Certificate Design", "Layout Design", "Typography", "Branding" ],
+      "description": "I designed a professional certificate for participants of the Thailand Expedition Convention and Workshop, ensuring it effectively conveyed achievement while maintaining a clean and visually appealing layout. The project focused on typography, composition, and brand consistency to create a polished final design.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1HoRPu4skIKWyyLvN0xYdab-lKXxmqBJY/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1HoRPu4skIKWyyLvN0xYdab-lKXxmqBJY/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 33,
+      "title": "Handheld Banners",
+      "category": "graphic",
+      "type": "Work Project",
+      "date": "January 2025",
+      "tools": [ "Adobe Illustrator" ],
+      "skills": [ "Banner Design", "Event Branding", "Visual Composition", "Layout Design" ],
+      "description": "I designed three handheld banners for company events held in Thailand, China, and Japan, ensuring they were visually impactful for event photography and effectively communicated the company’s brand and messaging.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/16033vAyyTQQj2FH7dm0JkFbU2EEERiaG/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/16033vAyyTQQj2FH7dm0JkFbU2EEERiaG/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1Yz92XHzdnK1zj9ihPA7ubeH_hfmHrv7W/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1Yz92XHzdnK1zj9ihPA7ubeH_hfmHrv7W/preview"
+        },
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1wTX8y1GwmmzR_0fIa-rxyTdt7SeFxnHF/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1wTX8y1GwmmzR_0fIa-rxyTdt7SeFxnHF/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 34,
+      "title": "NSD HQ Tour",
+      "category": "video",
+      "type": "Work Project",
+      "date": "January 2025",
+      "tools": [ "After Effects", "Capcut" ],
+      "skills": [ "Videography", "Video Editing", "Storytelling", "Post-Production" ],
+      "description": "I filmed and edited a company HQ tour video, capturing key areas and activities to showcase the workspace. The project involved planning shots, recording footage, and post-production editing to produce a cohesive and engaging final video.",
+      "media": [
+        {
+          "type": "video",
+          "embed": "<iframe src='https://drive.google.com/file/d/1E_kzT9OQyOfqVDipBIZDFh1TAAQbAOyz/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1E_kzT9OQyOfqVDipBIZDFh1TAAQbAOyz/preview"
+        }
+      ]
+    },
+    {
+
+      "id": 35,
+      "title": "NSD HQ Tour",
+      "category": "video",
+      "type": "Work Project",
+      "date": "January 2025",
+      "tools": [ "After Effects", "Capcut" ],
+      "skills": [ "Videography", "Video Editing", "Storytelling", "Post-Production" ],
+      "description": "I filmed and edited a company HQ tour video, capturing key areas and activities to showcase the workspace. The project involved planning shots, recording footage, and post-production editing to produce a cohesive and engaging final video.",
+      "media": [
+        {
+          "type": "image",
+          "embed": "<iframe src='https://drive.google.com/file/d/1w6osGl48vzdkV9xNxbxmJloU11AkTXtD/preview' width='100%' height='100%'></iframe>",
+          "thumbnail": "https://drive.google.com/file/d/1w6osGl48vzdkV9xNxbxmJloU11AkTXtD/preview"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Visual Diary",
+      "category": "diary",
+      "type": "Personal Project",
+      "date": "Ongoing",
+      "tools": [],
+      "skills": [],
+      "description": "",
+      "links": [
+        {
+          "text": "View on Instagram",
+          "url": "https://www.instagram.com/_tziyy_lens_/"
+        }
+      ],
+      "media": []
+    }
+  ]
+}
+   
