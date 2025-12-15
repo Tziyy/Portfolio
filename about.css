@@ -1173,3 +1173,68 @@
     .skill-category:nth-child(4) {
         animation-delay: 0.3s;
     }
+
+/* ===== RESUME BUTTON STYLES ===== */
+.title-with-resume {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    border: 2px solid #ef4444;
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.25);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+    .resume-btn:hover {
+        background: white;
+        color: #ef4444;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(239, 68, 68, 0.35);
+        border-color: #ef4444;
+    }
+
+    .resume-btn i {
+        font-size: 1.1rem;
+    }
+
+/* Responsive adjustments for resume button */
+@media (max-width: 768px) {
+    .title-with-resume {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .resume-btn {
+        align-self: flex-start;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .title-with-resume h3 {
+        font-size: 1.6rem;
+    }
+
+    .resume-btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
