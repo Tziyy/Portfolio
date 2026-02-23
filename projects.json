@@ -824,42 +824,7 @@
         }
       ]
     },
-    {
-
-      "id": 34,
-      "title": "NSD HQ Tour",
-      "category": "video",
-      "type": "Work Project",
-      "date": "January 2025",
-      "tools": [ "After Effects", "Capcut" ],
-      "skills": [ "Videography", "Video Editing", "Storytelling", "Post-Production" ],
-      "description": "I filmed and edited a company HQ tour video, capturing key areas and activities to showcase the workspace. The project involved planning shots, recording footage, and post-production editing to produce a cohesive and engaging final video.",
-      "media": [
-        {
-          "type": "video",
-          "embed": "<iframe src='https://drive.google.com/file/d/1E_kzT9OQyOfqVDipBIZDFh1TAAQbAOyz/preview' width='100%' height='100%'></iframe>",
-          "thumbnail": "https://drive.google.com/file/d/1E_kzT9OQyOfqVDipBIZDFh1TAAQbAOyz/preview"
-        }
-      ]
-    },
-    {
-
-      "id": 35,
-      "title": "NSD HQ Tour",
-      "category": "video",
-      "type": "Work Project",
-      "date": "January 2025",
-      "tools": [ "After Effects", "Capcut" ],
-      "skills": [ "Videography", "Video Editing", "Storytelling", "Post-Production" ],
-      "description": "I filmed and edited a company HQ tour video, capturing key areas and activities to showcase the workspace. The project involved planning shots, recording footage, and post-production editing to produce a cohesive and engaging final video.",
-      "media": [
-        {
-          "type": "image",
-          "embed": "<iframe src='https://drive.google.com/file/d/1w6osGl48vzdkV9xNxbxmJloU11AkTXtD/preview' width='100%' height='100%'></iframe>",
-          "thumbnail": "https://drive.google.com/file/d/1w6osGl48vzdkV9xNxbxmJloU11AkTXtD/preview"
-        }
-      ]
-    },
+    
     {
       "id": 36,
       "title": "Visual Diary",
